@@ -10,7 +10,7 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import { Typography } from "@mui/material";
 
-const RegionPicker = ({ onRegionPickerHandler }) => {
+const RegionPicker = ({onRegionPickerHandler}) => {
   return (
     <div>
       <React.Fragment>
@@ -29,39 +29,27 @@ const RegionPicker = ({ onRegionPickerHandler }) => {
           >
             <Grid container spacing={1} columnbs={12}>
               <Grid item xs={12} md={6} lg={6}>
-                <div
-                  className="region-container"
-                  onClick={() => onRegionPickerHandler("africa")}
-                >
+                <div className="region-container" onClick={() => onRegionPickerHandler('africa')}>
                   <img src={AfricaImage} alt="#" />
                   <Typography variant="h4">Africa</Typography>
                 </div>
               </Grid>
               <Grid item xs={12} md={6} lg={6}>
-                <div
-                  className="region-container"
-                  onClick={() => onRegionPickerHandler("americas")}
-                >
+                <div className="region-container" onClick={() => onRegionPickerHandler('africa')}>
                   <img src={AmericasImage} alt="#" />
                   <Typography variant="h4">Americas</Typography>
                 </div>
               </Grid>
 
               <Grid item xs={12} md={6} lg={6}>
-                <div
-                  className="region-container"
-                  onClick={() => onRegionPickerHandler("europe")}
-                >
+                <div className="region-container">
                   <img src={EuropeImage} alt="#" />
                   <Typography variant="h4">Europe</Typography>
                 </div>
               </Grid>
 
               <Grid item xs={12} md={6} lg={6}>
-                <div
-                  className="region-container"
-                  onClick={() => onRegionPickerHandler("asia")}
-                >
+                <div className="region-container">
                   <img src={AsiaImage} alt="#" />
                   <Typography variant="h4">Asia</Typography>
                 </div>

@@ -3,12 +3,6 @@ import "../App";
 import axios from "axios";
 import LinearProgress from "@mui/material/LinearProgress";
 import Container from "@mui/material/Container";
-import Card from "@mui/material/Card";
-import CardContent from "@mui/material/CardContent";
-import CardMedia from "@mui/material/CardMedia";
-import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
-import Grid from "@mui/material/Grid";
 
 const Countries = ({ clearSelectedRegionHandler, selectedRegion }) => {
   const [data, setData] = useState([]);

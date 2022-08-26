@@ -20,10 +20,7 @@ function App() {
       <Navbar />
 
       {selectedRegion ? (
-        <Countries
-          clearSelectedRegionHandler={clearSelectedRegionHandler}
-          selectedRegion={selectedRegion}
-        />
+        <Countries clearSelectedRegionHandler={clearSelectedRegionHandler} />
       ) : (
         <RegionPicker onRegionPickerHandler={onRegionPickerHandler} />
       )}

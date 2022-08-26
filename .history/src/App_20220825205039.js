@@ -19,14 +19,7 @@ function App() {
     <div className="App">
       <Navbar />
 
-      {selectedRegion ? (
-        <Countries
-          clearSelectedRegionHandler={clearSelectedRegionHandler}
-          selectedRegion={selectedRegion}
-        />
-      ) : (
-        <RegionPicker onRegionPickerHandler={onRegionPickerHandler} />
-      )}
+      {selectedRegion ? <Countries/> : <RegionPicker onRegionPickerHandler = {/>}
     </div>
   );
 }
