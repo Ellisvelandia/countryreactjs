@@ -35,21 +35,21 @@ const RegionPicker = () => {
                 </div>
               </Grid>
               <Grid item xs={12} md={6} lg={6}>
-                <div className="region-container">
+                <div className=".region-container">
                   <img src={AmericasImage} alt="#" />
                   <Typography variant="h4">Americas</Typography>
                 </div>
               </Grid>
 
               <Grid item xs={12} md={6} lg={6}>
-                <div className="region-container">
+                <div className=".region-container">
                   <img src={EuropeImage} alt="#" />
                   <Typography variant="h4">Europe</Typography>
                 </div>
               </Grid>
 
               <Grid item xs={12} md={6} lg={6}>
-                <div className="region-container">
+                <div className=".region-container">
                   <img src={AsiaImage} alt="#" />
                   <Typography variant="h4">Asia</Typography>
                 </div>

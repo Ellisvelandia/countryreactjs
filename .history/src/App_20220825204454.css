@@ -7,9 +7,5 @@ img {
   text-align: center;
   margin: 50px;
   border: 1px solid #cccc;
-  transition: all 0.3s ease;
-}
-
-.region-container:hover {
-  border: 1px solid #ba0e0e;
+  transition: all 0.3s ;
 }
