@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
 import AfricaImage from "../assets/Africa-Map-PNG-File.png";
-import AmericasImage from "../assets/americas.png";
+import AmericaImage from "../assets/americas.png";
 import AsiaImage from "../assets/asia2.png";
 import EuropeImage from "../assets/europe2.png";
 import CssBaseline from "@mui/material/CssBaseline";
@@ -30,28 +30,8 @@ const RegionPicker = () => {
             <Grid container spacing={1} columnbs={12}>
               <Grid item xs={12} md={6} lg={6}>
                 <div>
-                  <img src={AfricaImage} alt="#" />
-                  <Typography variant="h4">Africa</Typography>
-                </div>
-              </Grid>
-              <Grid item xs={12} md={6} lg={6}>
-                <div>
-                  <img src={AmericasImage} alt="#" />
-                  <Typography variant="h4">Americas</Typography>
-                </div>
-              </Grid>
-
-              <Grid item xs={12} md={6} lg={6}>
-                <div>
-                  <img src={EuropeImage} alt="#" />
-                  <Typography variant="h4">Europe</Typography>
-                </div>
-              </Grid>
-
-              <Grid item xs={12} md={6} lg={6}>
-                <div>
-                  <img src={AsiaImage} alt="#" />
-                  <Typography variant="h4">Asia</Typography>
+                  <img src="" alt="" />
+                  <Typography></Typography>
                 </div>
               </Grid>
             </Grid>

@@ -44,16 +44,10 @@ const RegionPicker = () => {
               <Grid item xs={12} md={6} lg={6}>
                 <div>
                   <img src={EuropeImage} alt="#" />
-                  <Typography variant="h4">Europe</Typography>
+                  <Typography variant="h4">Eur</Typography>
                 </div>
               </Grid>
 
-              <Grid item xs={12} md={6} lg={6}>
-                <div>
-                  <img src={AsiaImage} alt="#" />
-                  <Typography variant="h4">Asia</Typography>
-                </div>
-              </Grid>
             </Grid>
           </Box>
         </Container>

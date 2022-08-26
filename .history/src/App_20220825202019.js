@@ -18,7 +18,6 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      
       {selectedRegion ? <Countries/> : <RegionPicker/>}
     </div>
   );
